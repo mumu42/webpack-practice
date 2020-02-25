@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my-upload</title>
+</head>
+<body>
+    <div>
+        <label for='upload' class="upload-btn">+</label>
+        <input id='upload' type="file" accept="image/png, image/jpeg, image/gif, image/jpg" class="upload-el"/>
+        <div class="images-box"></div>
+        <div class="dialog">
+          <div class="content">
+              <div class="left">
+                <img id='cropimg1'/>
+                <img id="cropimg2"/>
+                <div class="clip-box">
+                  <div class="top-left"></div>
+                  <div class="top"></div>
+                  <div class="top-right"></div>
+                  <div class="left"></div>
+                  <div class="right"></div>
+                  <div class="down-left"></div>
+                  <div class="down"></div>
+                  <div class="down-right"></div>
+                </div>
+              </div>
+              <div class="right">
+                <div>
+                  <p>
+                    <img id="cropimg3" />
+                  </p>                     
+                </div>
+                <div>
+                  <p>
+                    <img id="cropimg4"/>
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <img id='get' />
+</body>
+</html>
